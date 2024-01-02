@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color:white;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+    margin:0;
+    padding:0;
+    font-smooth: auto;
+    margin-bottom: 0;
+
+}
+.logo img{
+    width:4rem;
+    border-radius: 45%;
+    cursor: pointer;
+    
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    position: relative;
+}
+.navbar ul li{
+    list-style: none;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #EEEEEE;
+    transition: 0.3s ease-in;
+    
+    
+}
+.navbar ul li a:hover{
+    color: rgb(227, 49, 168);
+    
+    
+
+}
+.navbar ul{
+    display: flex;
+}
+.main-page{
+    background-image: linear-gradient(to right, rgba(82, 82, 82, 0.3), rgba(234, 132, 208, 0.2)),url(bg1.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+.hero{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 0;
+
+}
+
+.hero .astrogif{
+    width:15rem;
+    margin-bottom: 0;
+    animation:  mover 1s infinite  alternate;
+    position: relative;
+    margin-top:1.5rem;
+    
+}
+.text{
+    text-align: center;
+    color: #ffffff;
+    padding:.3rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+}
+.text h1{
+    margin-bottom: .3rem;
+    z-index: 1;
+    position: relative;
+}
+.text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-bottom: .3rem;
+    z-index: 1;
+    position: relative;
+}
+.btn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 25px;
+    background:linear-gradient(to right, rgba(249, 115, 115, 0.8), rgba(251, 101, 213, 0.5));
+    color:#ffffff ;
+    transition: .5s ;
+    box-shadow: -1px 1px 5px black;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+}
+button:hover{
+   background-color: black;
+    color:#ffffff ;
+}
+.content{
+    
+    align-items: center;
+    text-align: center;
+}
+.page-2 .content h2{
+    margin-top: 2rem;
+}
+.line{
+    width:50px;
+    height: 3px;
+    background-color: rgb(244, 84, 63);
+    margin-top: 12px;
+    
+}
+.icons{
+    display: flex;
+}
+.top-icon object{
+    width: 3rem;
+}
+
+
+.top-icon{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 5rem;
+    right: 5rem;
+    margin-top: 2rem;
+
+}
+.left-icon{
+    align-items: center;
+    text-align: center;
+}
+.right-icon{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+.leve2-icon object{
+    width: 3rem;
+}
+.leve-2 icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.leve2-icon{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 5rem;
+    right: 5rem;
+    margin-top: 8rem;
+
+}
+.level2-left-icon{
+    align-items: center;
+    text-align: center;
+}
+.level2-right-icon{
+    align-items: center;
+    text-align: center;
+}
+/* ........................... */
+
+
+.leve3-icon object{
+    width: 3rem;
+}
+.level-3 icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.leve3-icon{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 5rem;
+    right: 5rem;
+    margin-top: 14.5rem;
+
+}
+.level3-left-icon{
+    align-items: center;
+    text-align: center;
+}
+.level3-right-icon{
+    align-items: center;
+    text-align: center;
+}
+.about{
+    
+    align-items: center;
+    text-align: center;
+    margin-top: 21rem;
+    height: 25rem;
+    
+}
+.about h1{
+    display: block;
+}
+.about line{
+    display: block;
+    text-align: center;
+}
+.about-section{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    position: relative;
+}
+.about-section img{
+width: 10rem;
+margin-top: 1rem;
+border-radius: 25px;
+box-shadow: -1px 1px 8px black;
+
+}
+
+
+.about-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: .3rem;
+}
+.technology{
+    
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    background: linear-gradient(to right, rgba(249, 115, 115, 0.8), rgba(251, 101, 213, 0.5));
+    border-radius: 25px;
+   
+}
+
+.technology ul{
+  list-style: none;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.technology ul li{
+
+   
+    color: white;
+    
+    
+}
+.skills{
+   text-align: center;
+   align-items: center;
+}
+.skills h4{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.projects .project1 img{
+    width: 18rem;
+    padding: .5rem;
+    border-radius: 20px;
+    
+}
+.project-desc{
+    text-align: center;
+    color: white;
+}
+.project-desc p{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin-top: .3rem;
+    
+}
+.projects{
+    background-color: rgb(32, 32, 32);
+    border-radius: 20px;
+}
+.Work{
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 0;
+
+}
+#projectbtn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer img{
+    width: 20rem;
+    margin-top: 3rem;
+    z-index: 2rem;
+    margin-bottom: 0;
+    background-size: cover; 
+}
+footer{
+    display: flex;
+    margin-bottom: 0;
+    justify-content: center;  
+}
+.img{
+    position: relative;
+}
+.img h3{
+    position: absolute;
+    text-align: center;
+    bottom: 8rem;
+    justify-content: center;
+    left:30%;
+    right:30%;
+    color: #EEEEEE;
+}
+.img a button{
+
+    transform: translateY(-5rem);
+    display: inline-block;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 25px;
+    background:linear-gradient(to right, rgba(249, 115, 115, 0.8), rgba(251, 101, 213, 0.5));
+    color:#ffffff ;
+    transition: .5s ;
+    box-shadow: -1px 1px 5px black;
+}
+.rights{
+    margin-top: 0;
+    
+}
+.rights p{
+    display: inline-block;
+}
+
+@media (min-width:1200px){
+    .top-icon{
+        left: 35rem;
+        right: 35rem;
+    }
+    .leve2-icon{
+        left: 35rem;
+        right: 35rem;
+    }
+    .leve3-icon{
+        left: 35rem;
+        right: 35rem;
+    }
+    .technology{
+        margin-left: 30rem;
+        margin-right: 30rem;
+    }
+    .projects{
+        width: 20rem;
+    }
+   .img img{
+        width: 35rem;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero img{
+        width: 15rem;
+    }
+    .navbar{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:400px){
+    .hero{
+        margin-top: 5rem;
+    }
+}
